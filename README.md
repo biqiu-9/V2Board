@@ -48,15 +48,15 @@ aaPanel 面板 > 网站 > 添加网站。
 
 以下命令都需要在站点目录进行操作。
 
-狂欢# 删除目录下文件chattr -i .user.inirm -rf .htaccess 404.html index.html .user.ini
+删除目录下文件chattr -i .user.inirm -rf .htaccess 404.html index.html .user.ini
 
 执行命令从Github克隆到当前目录。
 
-狂欢git clone https://github.com/v2board/v2board.git ./
+git clone https://github.com/v2board/v2board.git ./
 
 执行命令安装依赖包以及V2board
 
-狂欢sh init.sh
+sh init.sh
 
 根据提示完成安装
 
